@@ -1,7 +1,7 @@
 /********************************************************************************
 Program		: speglformula.sql
 Description	: update budget in gl allocation formula to current budget
-Author		: FRT (KYN) 
+Author		: DIP
 Remark		: use APPS accounts to run the script
 
 *********************************************************************************/
@@ -17,6 +17,7 @@ UPDATE gl_alloc_formula_lines gafl
           AND gafo.validation_status = 'V'
           )
 AND    gafl.budget_version_id IS NOT NULL
+AND name = 'OS'
 
 
 --REM EXECUTE COMMIT; IF OK
