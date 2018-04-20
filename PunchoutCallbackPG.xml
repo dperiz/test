@@ -1,4 +1,4 @@
-<?xml version = '1.1' encoding = 'UTF-16'?>
+<?xml version = '1.2' encoding = 'UTF-16'?>
 <jrad:page xmlns:jrad="http://xmlns.oracle.com/jrad" xmlns:oa="http://xmlns.oracle.com/oa" xmlns:ui="http://xmlns.oracle.com/uix/ui" version="9.0.3.6.4_453" xml:lang="en-US" file-version="$Header: PunchoutCallbackPG.xml 115.3 2004/01/06 17:44:44 jingyu noship $">
    <jrad:content>
       <oa:pageLayout id="PageLayoutRN" amDefName="oracle.apps.icx.punchout.server.PunchoutAM" controllerClass="oracle.apps.icx.punchout.webui.PunchoutCallbackCO" helpTarget="IPROCINDEX" windowTitle="Oracle iProcurement: Punchout" rendered="${oa.FunctionSecurity.ICX_CAT_PUNCHOUT_CALLBACK}" securityMode="selfSecured">
