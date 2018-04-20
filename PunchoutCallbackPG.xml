@@ -12,7 +12,7 @@
             <oa:image id="BrandingImage" source="PORBRAND.gif"/>
          </ui:productBranding>
          <ui:copyright>
-            <oa:messageStyledText id="Copyright" extends="/oracle/apps/fnd/framework/webui/OAFooter.CopyRight"/>
+            <oa:messageStyledText id="Copyright" extends="/apps/fnd/framework/webui/OAFooter.CopyRight"/>
          </ui:copyright>
          <ui:privacy>
             <oa:link id="Privacy" extends="/oracle/apps/fnd/framework/webui/OAFooter.Privacy"/>
